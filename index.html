@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <!-- style and bootstrap and myFramwork-->
+    <link rel="stylesheet" href="css/myFramework.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+    <!-- font awosome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- java script  -->
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <div class="page flex bg-page">
+        <div class="sidebar ">
+            <h3>ODAY</h3>
+            <ul>
+                <li class="rad-6 p-2 mb-2 active">
+                    <a href="index.html">
+                        <i class="fa-solid fa-chart-bar fa-fw "></i>
+                        <span class="ms-1">Dashboard</span>
+                    </a>
+                </li>
+                <li class="rad-6 p-2 mb-2">
+                    <a href="index.html">
+                        <i class="fa-solid fa-gear fa-fw"></i>
+                        <span class="ms-1">Settings</span>
+                    </a>
+                </li>
+                <li class="rad-6 p-2 mb-2">
+                    <a href="index.html">
+                        <i class="fa-regular fa-user fa-fw"></i>
+                        <span class="ms-1">Profile</span>
+                    </a>
+                </li>
+                <li class="rad-6 p-2 mb-2">
+                    <a href="index.html">
+                        <i class="fa-solid fa-diagram-project fa-fw"></i>
+                        <span class="ms-1">Projects</span>
+                    </a>
+                </li>
+                <li class="rad-6 p-2 mb-2">
+                    <a href="index.html">
+                        <i class="fa-solid fa-graduation-cap fa-fw"></i>
+                        <span class="ms-1">courses</span>
+                    </a>
+                </li>
+                <li class="rad-6 p-2 mb-2">
+                    <a href="index.html">
+                        <i class="fa-regular fa-circle-user fa-fw"></i>
+                        <span class="ms-1">Friends</span>
+                    </a>
+                </li>
+                <li class="rad-6 p-2 mb-2">
+                    <a href="index.html">
+                        <i class="fa-regular fa-file fa-fw"></i>
+                        <span class="ms-1">Files</span>
+                    </a>
+                </li>
+                <li class="rad-6 p-2 mb-2">
+                    <a href="index.html">
+                        <i class="fa-regular fa-credit-card fa-fw"></i>
+                        <span class="ms-1">Plans</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="content ">
+            <header>
+                <div class="search">
+                    <input type="search" placeholder="Type A Keyword">
+                </div>
+                <div class="icon">
+                    <span class="bell">
+                        <i class="fa-regular fa-bell"></i>
+                    </span>
+                    <img src="images/avatar.png" alt="">
+                </div>
+            </header>
+            <h2 class="selectedTitle">Dashboard</h2>
+            <div class="cards">
+
+                <div class="c bg-white rad-10  wellcome">
+                    <div class="intro bg-eee flex">
+                        <div class="text-title">
+                            <h3 class="m-0">Welcome</h3>
+                            <p class="mb-5">ODAY</p>
+                        </div>
+                        <div class="image">
+                            <img src="images/wellcome.png" alt="">
+                        </div>
+                    </div>
+                    <img class="avatar2" src="images/avatar.png" alt="">
+                    <div class="outro">
+                        <div class="text-center">Oday telbany<span>Developer</span></div>
+                        <div class="text-center">80<span>Projects</span></div>
+                        <div class="text-center">$8500<span>Earned</span></div>
+                    </div>
+                    <a href="profile.html" class="btn btn-primary">Profile</a>
+                </div>
+
+
+                <div class="c bg-white rad-10 draft">
+                    <div class="text-title">
+                        <h3 class="m-0">Quick Draft</h3>
+                        <p class="mb-4">Write A Draft For Your Ideas</p>
+                    </div>
+                    <form action="">
+                        <input type="text" placeholder="Title" class="bg-eee rad-6">
+                        <textarea placeholder="Your Thought" class="bg-eee rad-6"></textarea>
+                    </form>
+                    <a href="" class="btn btn-primary me-0 pt-0 pb-0">Save</a>
+                </div>
+
+
+                <div class="c bg-white rad-10 targets">
+                    <div class="text-title">
+                        <h3 class="m-0">Yearly Targets</h3>
+                        <p class="mb-4">Targest of the year</p>
+                    </div>
+
+                    <div class="target blue">
+                        <div class="icon">
+                            <i class="fa-solid fa-dollar-sign fa-lg"></i>
+                        </div>
+                        <div class="details">
+                            <p>Money</p>
+                            <h3>$20.000</h3>
+                            <div class="prog">
+                                <span style="width: 80%;" class="blue">
+                                    <span>80%</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="target orange">
+                        <div class="icon">
+                            <i class="fa-solid fa-code fa-lg"></i>
+                        </div>
+                        <div class="details">
+                            <p>Projects</p>
+                            <h3>24</h3>
+                            <div class="prog">
+                                <span style="width: 45%;" class="orange">
+                                    <span>45%</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="target green">
+                        <div class="icon">
+                            <i class="fa-solid fa-user fa-lg"></i>
+                        </div>
+                        <div class="details">
+                            <p>Team</p>
+                            <h3>12</h3>
+                            <div class="prog">
+                                <span style="width: 60%;" class="green">
+                                    <span>60%</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="c bg-white rad-10 tikets">
+                    <div class="text-title">
+                        <h3 class="m-0">Tikets Statistics</h3>
+                        <p class="mb-5">Every Thing About Support Tikets</p>
+                    </div>
+                    <div class="boxes">
+                        <div class="box text-center">
+                            <i class="fa-regular fa-rectangle-list fa-2x c-orange"></i>
+                            <span>2500</span>
+                            Total
+                        </div>
+
+                        <div class="box text-center">
+                            <i class="fa-solid fa-spinner fa-2x c-blue"></i>
+                            <span>2500</span>
+                            Total
+                        </div>
+
+                        <div class="box text-center">
+                            <i class="fa-regular fa-circle-check fa-2x c-green"></i>
+                            <span>2500</span>
+                            Total
+                        </div>
+
+                        <div class="box text-center">
+                            <i class="fa-regular fa-rectangle-xmark fa-2x c-red"></i>
+                            <span>2500</span>
+                            Total
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="c bg-white rad-10 news">
+                    <div class="text-title">
+                        <h3 class="m-0 mb-4">Latest News</h3>
+                    </div>
+                    <div class="news-container">
+                        <div class="new">
+                            <img src="images/news1.png" alt="">
+                            <div class="info">
+                                <h3>Created sass section</h3>
+                                <span>new sass examples and tutorials</span>
+                            </div>
+                            <a class="btn bg-eee">3 days ago</a>
+                        </div>
+
+                        <div class="new">
+                            <img src="images/news2.png" alt="">
+                            <div class="info">
+                                <h3>Created sass section</h3>
+                                <span>new sass examples and tutorials</span>
+                            </div>
+                            <a class="btn bg-eee">3 days ago</a>
+                        </div>
+
+                        <div class="new">
+                            <img src="images/news3.png" alt="">
+                            <div class="info">
+                                <h3>Created sass section</h3>
+                                <span>new sass examples and tutorials</span>
+                            </div>
+                            <a class="btn bg-eee">3 days ago</a>
+                        </div>
+
+                        <div class="new">
+                            <img src="images/news4.png" alt="">
+                            <div class="info">
+                                <h3>Created sass section</h3>
+                                <span>new sass examples and tutorials</span>
+                            </div>
+                            <a class="btn bg-eee">3 days ago</a>
+                        </div>
+
+                    </div>
+                    
+                </div>
+
+                
+                <div class="c bg-white rad-10 tasks">
+                    <div class="text-title">
+                        <h3 class="m-0 mb-4">Latest Tasks</h3>
+                    </div>
+                    <div class="tasks-container">
+                        <div class="task">
+                            <div class="info">
+                                <h3>Created sass section</h3>
+                                <span>new sass examples and tutorials</span>
+                            </div>
+                            <i class="fa-solid fa-trash-can delete"></i>
+                        </div>
+
+                        <div class="task">
+                            <div class="info">
+                                <h3>Created sass section</h3>
+                                <span>new sass examples and tutorials</span>
+                            </div>
+                            <i class="fa-solid fa-trash-can delete"></i>
+                        </div>
+
+                        <div class="task done">
+                            <div class="info">
+                                <h3>Created sass section</h3>
+                                <span>new sass examples and tutorials</span>
+                            </div>
+                            <i class="fa-solid fa-trash-can delete"></i>
+                        </div>
+
+                        <div class="task">
+                            <div class="info">
+                                <h3>Created sass section</h3>
+                                <span>new sass examples and tutorials</span>
+                            </div>
+                            <i class="fa-solid fa-trash-can delete"></i>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="c bg-white rad-10 serches">
+                    <div class="text-title">
+                        <h3 class="m-0 mb-4">Latest News</h3>
+                        <div class="spans c-grey" style="display: flex; justify-content: space-between; margin-bottom: 15px;">
+                            <span>Keyword</span>
+                            <span>Serch Count</span>
+                        </div>
+                    </div>
+                    <div class="serches-container">
+                        <div class="se">
+                            <div class="info">
+                                <h3>Programming</h3>
+                            </div>  
+                            <a class="btn bg-eee">280</a>
+                        </div>
+
+                        <div class="se">
+                            <div class="info">
+                                <h3>Java script</h3>
+                            </div>  
+                            <a class="btn bg-eee">133</a>
+                        </div>
+
+                        <div class="se">
+                            <div class="info">
+                                <h3>web developement</h3>
+                            </div>  
+                            <a class="btn bg-eee">124</a>
+                        </div>
+
+                        <div class="se">
+                            <div class="info">
+                                <h3>sass</h3>
+                            </div>  
+                            <a class="btn bg-eee">98</a>
+                        </div>
+
+                        <div class="se">
+                            <div class="info">
+                                <h3>css</h3>
+                            </div>  
+                            <a class="btn bg-eee">70</a>
+                        </div>
+
+                        <div class="se">
+                            <div class="info">
+                                <h3>html</h3>
+                            </div>  
+                            <a class="btn bg-eee">56</a>
+                        </div>
+
+                    </div>
+                    
+                </div>
+
+                
+                <div class="c bg-white rad-10 news uploads">
+                    <div class="text-title">
+                        <h3 class="m-0 mb-4">Latest Uploads</h3>
+                    </div>
+                    <div class="news-container files-container">
+                        <div class="new file">
+                            <img src="images/pdf.svg" alt="">
+                            <div class="info">
+                                <h3>myfile.pdf</h3>
+                                <span>Oday</span>
+                            </div>
+                            <a class="btn bg-eee">3.4mb</a>
+                        </div>
+
+                        <div class="new file">
+                            <img src="images/psd.svg" alt="">
+                            <div class="info">
+                                <h3>designOne.psd</h3>
+                                <span>admin</span>
+                            </div>
+                            <a class="btn bg-eee">45mb</a>
+                        </div>
+
+                        <div class="new file">
+                            <img src="images/avi.svg" alt="">
+                            <div class="info">
+                                <h3>mySound.avi</h3>
+                                <span>rami</span>
+                            </div>
+                            <a class="btn bg-eee">22mb</a>
+                        </div>
+
+                        <div class="new file">
+                            <img src="images/dll.svg" alt="">
+                            <div class="info">
+                                <h3>msc100.dll</h3>
+                                <span>admin</span>
+                            </div>
+                            <a class="btn bg-eee">120kb</a>
+                        </div>
+
+                        <div class="new file">
+                            <img src="images/pdf.svg" alt="">
+                            <div class="info">
+                                <h3>woldone.pdf</h3>
+                                <span>admin</span>
+                            </div>
+                            <a class="btn bg-eee">2mb</a>
+                        </div>
+                    </div>
+                    
+                </div>
+
+
+                <div class="c bg-white rad-10 current-prog">
+                    <div class="text-title">
+                        <h3 class="m-0 mb-4">Current project progress</h3>
+                    </div>
+
+                    <ul>
+                        <li class="done">Got the project</li>
+                        <li class="done">Plan the project</li>
+                        <li class="done">Started the project</li>
+                        <li class="done">The project about to finish</li>
+                        <li class="current">Test the project</li>
+                        <li>Test the project</li>
+                        <li>Finish and submit !</li>
+                    </ul>
+                    <img src="images/rocket.png" alt="">
+                </div>
+
+
+                <div class="c bg-white rad-10 news">
+                    <div class="text-title">
+                        <h3 class="m-0 mb-4">Reminder</h3>
+                    </div>
+                    <div class="news-container reminder-container">
+                        <div class="new rm blue">
+                            <div class="info">
+                                <h3>Check my tasks list</h3>
+                                <span>28/9/2022 - 12:00am</span>
+                            </div>
+                        </div>
+
+                        <div class="new rm green">
+                            <div class="info">
+                                <h3>Check my project</h3>
+                                <span>28/9/2022 - 12:00am</span>
+                            </div>
+                        </div>
+
+                        <div class="new rm orange">
+                            <div class="info">
+                                <h3>Call my clients</h3>
+                                <span>28/9/2022 - 12:00am</span>
+                            </div>
+                        </div>
+
+                        <div class="new rm red">
+                            <div class="info">
+                                <h3>solve some issues</h3>
+                                <span>28/9/2022 - 12:00am</span>
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
